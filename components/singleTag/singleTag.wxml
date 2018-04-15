@@ -1,0 +1,7 @@
+<!--components/singleTag/singleTag.wxml-->
+<view class='tag-container'>
+  <image class='background-image' src="{{imageUrl}}" mode='aspectFill'></image>
+  <view class='color' style="{{'background-color: ' + color}}"></view>
+  <view class='mask'></view>
+  <text class='text'>{{tagName}}</text>
+</view>

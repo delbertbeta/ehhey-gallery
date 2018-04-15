@@ -1,0 +1,29 @@
+<!--index.wxml-->
+<view class="container">
+
+<swiper class='welcome-swiper' indicator-dots="true">
+  <block>
+    <swiper-item>
+      <view class='welcome-swiper-content content-first'>
+        <image mode="aspectFill" src='/static/face3.jpg'></image>
+        <text class='description'>介绍1</text>
+      </view>
+    </swiper-item>
+    <swiper-item>
+      <view class='welcome-swiper-content content-second'>
+        <image mode="aspectFill" src='/static/face5.jpg'></image>
+        <text class='description'>介绍2</text>
+      </view>
+    </swiper-item>
+    <swiper-item>
+      <view class='welcome-swiper-content content-third'>
+        <image mode="aspectFill" src='/static/face8.jpg'></image>
+        <text class='description'>介绍3</text>
+      </view>
+    </swiper-item>
+  </block>
+</swiper>
+
+<button class='enter-button' bindtap='goToIndex'>进入</button>
+
+</view>

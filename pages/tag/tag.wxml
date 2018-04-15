@@ -1,0 +1,4 @@
+<!--pages/tag/tag.wxml-->
+<view class='tag-container'>
+  <single-tag wx:for="{{tagList}}" tagName="{{item.tagName}}" imageUrl="{{item.imageUrl}}" color="{{item.color}}"></single-tag>
+</view>

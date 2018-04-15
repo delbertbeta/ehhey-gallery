@@ -1,0 +1,10 @@
+<!--components/cardList/cardList.wxml-->
+
+<view class='card-list-container'>
+  <view class='col1'>
+    <single-card class="single-card" wx:for="{{col1}}" imageUrl="{{item.image}}" tagList="{{item.tag}}" price="{{item.price}}"></single-card>
+  </view>
+  <view class='col2'>
+    <single-card class="single-card" wx:for="{{col2}}" imageUrl="{{item.image}}" tagList="{{item.tag}}" price="{{item.price}}"></single-card>
+  </view>
+</view>

@@ -1,0 +1,8 @@
+/* pages/tag/tag.wxss */
+.tag-container {
+  padding: 20rpx 60rpx;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}

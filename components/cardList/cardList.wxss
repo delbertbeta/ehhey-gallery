@@ -1,0 +1,26 @@
+/* components/cardList/cardList.wxss */
+
+.card-list-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.col1 {
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.col2 {
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.single-card {
+  width: 100%;
+}

@@ -1,0 +1,7 @@
+<!--components/singleCard.wxml-->
+<view class='single-card'>
+  <image style="{{'height: ' + imgHeight + 'rpx'}}" src='{{imageUrl}}' class='image' mode='aspectFill' bindload='onImageLoad'></image>
+  <view class='tag-list'>
+    <view wx:for="{{tagList}}" class='tag'>{{'# ' + item}}</view>
+  </view>
+</view>

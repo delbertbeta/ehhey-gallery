@@ -1,0 +1,46 @@
+/**welcome.wxss**/
+page {
+  height: 100%;
+  width: 100%;
+}
+
+.container {
+  height: 100%;
+  width: 100%;
+  padding: 0;
+}
+
+ .welcome-swiper {
+  height: 100%;
+  width: 100%;
+}
+
+.welcome-swiper-content {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.description {
+  margin: 80rpx 0;
+}
+
+/* .content-first {
+  background-color: #e0f2f1;
+}
+
+.content-second {
+  background-color: #e1f5fe;
+}
+
+.content-third {
+  background-color: #f3e5f5;
+} */
+
+.enter-button {
+  position: fixed;
+  bottom: 120rpx;
+}

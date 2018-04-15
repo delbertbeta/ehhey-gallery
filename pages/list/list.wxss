@@ -1,0 +1,22 @@
+/* pages/list/list.wxss */
+.top-bar{
+  padding: 20rpx 60rpx;
+  font-weight: 700;
+  font-size: 40rpx;
+  color: #bebebe;
+  position: relative;
+}
+
+.top-bar > .selected {
+  color: black;
+}
+
+.top-bar > text {
+  margin-right: 40rpx;
+}
+
+.search {
+  position: absolute;
+  right: 0rpx;
+  color: black;
+}

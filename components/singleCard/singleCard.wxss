@@ -1,0 +1,32 @@
+/* components/singleCard.wxss */
+.single-card {
+  border-radius: 10rpx;
+  box-shadow: 0 20rpx 20rpx rgba(0, 0, 0, 0.05);
+  margin: 20rpx 0;
+  width: 100%;
+  height: auto;
+  padding-bottom: 20rpx;
+}
+
+.image {
+  width: 100%;
+  height: auto;
+}
+
+.tag-list {
+  font-size: 9pt;
+  font-weight: 300;
+  margin-top: 20rpx;
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 20rpx;
+  flex-wrap: wrap;
+}
+
+.tag {
+  display: block;
+  padding: 4rpx 8rpx;
+  background-color: #303030;
+  color: white;
+  margin-right: 4rpx;
+}

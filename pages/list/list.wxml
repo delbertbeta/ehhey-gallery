@@ -1,0 +1,9 @@
+<!--pages/list/list.wxml-->
+<view class='list-container'>
+  <view class='top-bar'>
+    <text class='selected'>推荐</text>
+    <text>关注</text>
+    <text class='search'>搜索</text>
+  </view>
+  <card-list class='card-list'></card-list>
+</view>

@@ -1,0 +1,6 @@
+{
+  "component": true,
+  "usingComponents": {
+    "single-card": "/components/singleCard/singleCard"
+  }
+}
