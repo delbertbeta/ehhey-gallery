@@ -4,6 +4,7 @@ Component({
    * 组件的属性列表
    */
   properties: {
+    id: Number,
     imageUrl: String,
     tagList: Array,
     price: Number
@@ -31,6 +32,11 @@ Component({
 
       this.setData({
         imgHeight: imgHeight
+      })
+    },
+    goToPicDetail() {
+      wx.navigateTo({
+        url: '/pages/picDetail/picDetail?id=' + this.properties.id
       })
     }
   }

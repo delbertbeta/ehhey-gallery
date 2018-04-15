@@ -1,5 +1,5 @@
 <!--components/singleCard.wxml-->
-<view class='single-card'>
+<view class='single-card' bindtap="goToPicDetail">
   <image style="{{'height: ' + imgHeight + 'rpx'}}" src='{{imageUrl}}' class='image' mode='aspectFill' bindload='onImageLoad'></image>
   <view class='tag-list'>
     <view wx:for="{{tagList}}" class='tag'>{{'# ' + item}}</view>

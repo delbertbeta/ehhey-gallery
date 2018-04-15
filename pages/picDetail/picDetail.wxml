@@ -1,0 +1,5 @@
+<!--pages/picDetail/picDetail.wxml-->
+
+<view class='pic-detail-container'>
+  <image class='huge-image' src=''></image>
+</view>

@@ -1,9 +1,10 @@
 {
   "pages": [
+    "pages/list/list",
     "pages/my/my",
     "pages/tag/tag",
-    "pages/list/list",
-    "pages/welcome/welcome"
+    "pages/welcome/welcome",
+    "pages/picDetail/picDetail"
   ],
   "window": {
     "backgroundTextStyle": "light",
